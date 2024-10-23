@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 25px;
+    width: 100vw;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: capitalize;
+}
+nav{
+    height: 50px;
+    background-color: ;
+    width: 100vw;
+}
+nav ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+#nav-list li{
+    margin-top: 7px;
+}
+#nav-list{
+    list-style-type:none;
+}
+#profile{
+    height: 30px;
+}
+#cart{
+    height: 30px;
+}
+#gif1{
+    width: 100vw;
+    margin: 0;
+    margin-bottom: 100px
+}
+
+#para1women{
+    font-size: 50px;
+    text-align: center;
+    margin: -10vh;;
+}
+
+#nav1{
+    background-color:gray;
+    height: 55px;
+}
+
+#signin{
+    width: 97px;
+    height: 40px;
+    background-color: #000000;
+    display: inline-block;
+    position: relative;
+    left: 67vw;
+    bottom: 41px;
+    border-radius: 4px;
+    color: white;
+}
+input[type = "text"]{
+    width: 30vw;
+    display: inline-block;
+    position: relative;
+    left: 31vw;
+    height: 34px;
+    margin-top: 9px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.goto{
+    display: flex;
+    justify-content: space-evenly;
+    height: 900px;
+    width: 100vw;
+    align-items: center;
+    margin-top: -120px;
+}
+#wsectionimg,#msectionimg{
+    width: 37vw;
+    box-shadow:6px 7px 16px black;
+    
+}
+#wsectionimg:hover,#msectionimg:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out , transform 0.3s ease-in-out;
+}
+#her{
+    position: relative;
+    left: 16vw;
+    top: -62vh;
+    color: rgb(115, 110, 110);
+    font-size: 90px;
+    color: white;
+}
+#him{
+    position: relative;
+    left: 68vw;
+    top: -60vh;
+    color: white;
+    font-size: 90px;
+    color: black;
+}
+footer{
+    background-color: black;
+    margin-top: -125px;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    
+}
+.socialIcons a{
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 35px;
+}
+.footerNav{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    color: white;
+    margin: 35px;
+}
+.footerBottom{
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+form{
+    color: whitesmoke;
+    font-style:italic;
+    font-size: 40px;
+}
